@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Heebo";
+  color: #21243D;
+font-style: normal;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.blog{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    margin-left: 200px;
+}
+.PostCard{ 
+   background-color: #EDF7FA;
+   height: 416px;
+   width: 1600px;
+   margin:  50px 0;
+}
+  
+.Postrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-left: 200px;
+    height: 295px;
+    
+}
+.Card{
+    width: 418px;
+    height: 295px;
+    padding: 28px;
+    margin:  10px ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+   border-radius: 4px;
+   
+    
+}
+.Card h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    
+}
+.title1{
+    margin-left: 210px;
+margin-bottom: 2px;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+}
+.post{
+    margin: 50px 0;
+}
+
+.post h3{
+    font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+    
+}
+
+.post p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+hr {
+    width: 381px;
+height: 0px;
+    border: 1px solid #E0E0E0;
+  }
+
+  .WorkTitle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+  }
+  .workimg {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    margin: 60px 50px 50px 20px;
+
+  }
+  .workBlock{
+      display: flex;
+      margin-left: -10px;
+      /* justify-content: space-between; */
+  }
+
+  .presentation{
+      margin-left: 200px;
+  }
